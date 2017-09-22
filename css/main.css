@@ -1,0 +1,90 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.img-flex {
+  width: 100%;
+}
+
+.demo-card-wide.mdl-card {
+  width: 512px;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('../images/banner-image.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+.demo-layout-transparent {
+  /* background: url('https://static.pexels.com/photos/34950/pexels-photo.jpg') center / cover; */
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #7c0bff , #03a2e8); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #7c0bff, #03a2e8); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #7c0bff, #03a2e8); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #7c0bff , #03a2e8); /* Standard syntax (must be last) */
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+}
+
+.mdl-layout__content {
+  max-width: 60em;
+}
+
+.cta {
+  color: #fff;
+  padding-top: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+@media only screen and (min-width: 25em) {
+
+
+
+}
+
+@media only screen and (min-width: 38em) {
+
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .cta {
+    padding-left: 5.5em;
+  }
+
+
+}
+
+@media only screen and (min-width: 90em) {
+
+
+
+}
